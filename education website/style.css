@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #388359;
+    padding: 0 69px;
+    height: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav .logo {
+    font-family: cursive;
+}
+
+.nav .menuitem {
+    column-gap: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav .menuitem a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+.nav .menuitem a:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav .btn button {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: greenyellow;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav .btn button:hover {
+    box-shadow: greenyellow 0px 7px 20px 0px;
+}
+
+.herosec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 69px;
+    background-color: #388359;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.herosec .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.herosec .left .heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.herosec .left .point {
+    padding-left: 20px;
+    display: flex;
+    line-height: 25px;
+    color: #c9c1c1;
+}
+
+.herosec .left .heading span {
+    color: greenyellow;
+}
+
+.herosec .right img {
+    height: 430px;
+    width: 430px;
+    box-shadow: 12px 15px 3px 4px #264e38;
+    border-radius: 15px;
+}
+
+.herosec .left .btn {
+    display: flex;
+    column-gap: 15px;
+}
+
+.herosec .left .btn .btn1 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: greenyellow;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.herosec .left .btn .btn2 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.herosec .left .btn .btn1:hover {
+    box-shadow: greenyellow 0px 7px 20px 0px;
+}
+
+.herosec .left .btn .btn2:hover {
+    box-shadow: white 0px 7px 20px 0px;
+}
+
+.trust {
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    padding: 0 69px;
+    background-color: #264e38;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.trust .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.trust .left .star i {
+    background: #32d379;
+    padding: 10px;
+}
+
+.trust .left p {
+    color: #c9c1c1;
+    font-size: 13px;
+}
+
+.trust .left .review span {
+    color: #c9c1c1;
+}
+
+.trust .left .review {
+    color: white;
+}
+
+.trust .left p i {
+    color: #32d379;
+}
+
+.trust .right {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    background: #a3a1a147;
+    padding: 20px 50px;
+    border-radius: 3px;
+}
+
+.trust .right i {
+    color: yellow;
+}
+
+.trust .right p {
+    color: white;
+}
+
+.coursesec {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.coursesec .mainbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 69px;
+    padding-right: 117px;
+}
+
+.coursesec .right {
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 500px;
+}
+
+.coursesec .right .one {
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.coursesec .right .one i {
+    background: #32d379;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.coursesec .twobox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 69px;
+    margin-top: 50px;
+}
+
+.coursesec .left2 {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 65px;
+    column-gap: 13px;
+    border-radius: 6px;
+}
+
+.coursesec .left2 i {
+    color: green;
+}
+
+.coursesec .right2 {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 65px;
+    column-gap: 13px;
+    border-radius: 6px;
+}
+
+.coursesec .right2 i {
+    color: red;
+}
+
+.course-catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.course-catalog .heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.course-catalog .course-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-catalog .course-box .box {
+    width: 310px;
+    background: white;
+    width: 310px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.course-catalog .course-box .box img {
+    width: 310px;
+    border-radius: 10px;
+}
+
+.course-catalog .course-box .box .text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-catalog .course-box .box .text button{
+    padding: 13px 30px;
+    border-radius: 7px;
+    border: none;
+    background: greenyellow;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.course-catalog .course-box .box .text button:hover{
+    box-shadow: greenyellow 0px 7px 20px 0px;
+}
+
+.course-catalog .slide{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.course-catalog .slide div{
+    background-color: darkgray;
+    height: 3px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 69px;
+    background-color: whitesmoke;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    width: 520px;
+    align-items: flex-start;
+}
+
+.about .left .heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.about .left .point {
+    padding-left: 20px;
+    display: flex;
+    line-height: 25px;
+    color: black;
+}
+
+.about .left .heading span {
+    color: greenyellow;
+}
+
+.about .right img {
+    height: 430px;
+    width: 430px;
+    box-shadow: -14px -15px 3px 4px #a3a1a147;
+    border-radius: 15px;
+}
+
+.about .left .btn {
+    display: flex;
+    column-gap: 15px;
+}
+
+.about .left .btn .btn1 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: #5c5c5c;
+    color: gold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.about .left .btn .btn2 {
+    padding: 17px 30px;
+    border-radius: 7px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.about .left .btn .btn1:hover {
+    box-shadow: #5c5c5c 0px 7px 20px 0px;
+}
+
+.about .left .btn .btn2:hover {
+    box-shadow: white 0px 7px 20px 0px;
+}
+
+
+.app-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 350px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .app-sec .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+  }
+  
+  .app-sec .txt .head {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .app-sec .txt .para {
+    width: 52%;
+    color: rgb(133, 124, 124);
+  }
+  
+  .app-sec .btn {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 20px;
+  }
+  
+  .bn45 {
+    width: 170px;
+    height: 50px;
+  }
+  
+  .bn46 {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .app-sec .rat {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .app-sec .rat i {
+    color: rgb(255, 166, 0);
+  }
+  
+  
+  .app-sec .rat p {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .app-sec .rat p span {
+    color: rgba(50, 255, 60, 0.904);
+  }
+  
+  .foot-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 300px;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .foot-sec .main-box {
+    display: flex;
+    column-gap: 130px;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  .foot-sec .main-box .box1 h1 {
+    color: white;
+  }
+  
+  .foot-sec .main-box .box1 .social {
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box1 i {
+    color: black;
+    font-size: 20px;
+    background: greenyellow;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .foot-sec .main-box .box2 h1 {
+    color: white;
+  }
+  
+  .foot-sec .main-box .box2 i {
+    color: white;
+  }
+  
+  .foot-sec .main-box .box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot-sec .main-box .box2 .btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 20px;
+  }
+  
+  .foot-sec .main-box .box2 .btn a {
+    text-decoration: none;
+    color: rgb(141, 137, 137);
+  }
+  
+  .foot-sec .main-box .box4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box4 .add {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box4 h1 {
+    color: white;
+  }
+  
+  .foot-sec .main-box .box4 .add p {
+    color: rgb(141, 137, 137);
+  }
+  
+  .foot-sec .copy {
+    margin-top: 57px;
+    /* background: red; */
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: -30px;
+  }
+  
+  .foot-sec .copy p{
+    color: white;
+  }
+  
+  .foot-sec .copy p span{
+    color: greenyellow;
+  }
